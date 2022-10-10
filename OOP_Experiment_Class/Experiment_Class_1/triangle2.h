@@ -1,0 +1,1 @@
+bool isTriangle2(float a, float b, float c);

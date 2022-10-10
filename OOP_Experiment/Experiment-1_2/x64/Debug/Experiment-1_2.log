@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\C & C++\Object-oriented Programming\OOP_Experiment\Experiment-1_2\main.cpp(8,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C & C++\Object-oriented Programming\OOP_Experiment\Experiment-1_2\main.cpp(24,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Experiment-1_2.vcxproj -> D:\C & C++\Object-oriented Programming\OOP_Experiment\Experiment-1_2\x64\Debug\Experiment-1_2.exe
