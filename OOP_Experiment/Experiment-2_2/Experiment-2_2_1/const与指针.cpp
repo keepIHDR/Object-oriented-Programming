@@ -18,6 +18,7 @@ bool isTriangle(double x, double y, double z) {
 
 double triangleArea(const double* parray) {
     double p = 0.5 * (parray[0] + parray[1] + parray[2]);
+    parray[0] = 3;
     return sqrt(p * (p - parray[0]) * (p - parray[1]) * (p - parray[2]));
 }
 
@@ -27,6 +28,7 @@ int main() {
     cin >> parray[0] >> parray[1] >> parray[2];
     if (!isTriangle(parray[0], parray[1], parray[2])) {
         cout << "输入的三边边长不能构成三角形! " << endl;
+        system("pause");
         return 1;
     }
     cout << "边长为" << parray[0] << ", " << parray[1] << ", " << parray[2] << "的三角形面积: " << triangleArea(parray) << endl;

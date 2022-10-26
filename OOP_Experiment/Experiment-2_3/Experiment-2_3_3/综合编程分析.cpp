@@ -26,7 +26,7 @@ double quadrature(double a, double b, double c) {
     return sqrt(p * (p - a) * (p - b) * (p - c));
 }
 
-bool maxS_C(double a, double b, double c) {
+bool maxS_C(double &a, double &b, double &c) {
     if (a + b + c > maxC && quadrature(a, b, c) > maxS) {
         return true;
     }
