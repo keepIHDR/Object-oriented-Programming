@@ -1,2 +1,8 @@
 ﻿  main.cpp
+  triangle.cpp
+D:\C & C++\Object-oriented-Programming\OOP_Experiment\Experiment-3_1\Experiment-3_1\triangle.cpp(80,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C & C++\Object-oriented-Programming\OOP_Experiment\Experiment-3_1\Experiment-3_1\triangle.cpp(85,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C & C++\Object-oriented-Programming\OOP_Experiment\Experiment-3_1\Experiment-3_1\triangle.cpp(90,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  triangle.h
+  正在生成代码...
   Experiment-3_1.vcxproj -> D:\C & C++\Object-oriented-Programming\OOP_Experiment\Experiment-3_1\Experiment-3_1\x64\Debug\Experiment-3_1.exe
