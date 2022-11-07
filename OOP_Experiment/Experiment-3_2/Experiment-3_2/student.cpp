@@ -45,20 +45,20 @@ char Student::calculsteGrade() {
 	}
 }
 
-void Student::set_P(double p) {
-	ScoreP = p;
+void Student::set_P(double ScoreP) {
+	this->ScoreP = ScoreP;
 	SumScore = calculsteSum();
 	grade = calculsteGrade();
 }
 
-void Student::set_M(double m) {
-	ScoreM = m;
+void Student::set_M(double ScoreM) {
+	this->ScoreM = ScoreM;
 	SumScore = calculsteSum();
 	grade = calculsteGrade();
 }
 
-void Student::set_L(double l) {
-	ScoreL = l;
+void Student::set_L(double ScoreL) {
+	this->ScoreL = ScoreL;
 	SumScore = calculsteSum();
 	grade = calculsteGrade();
 }

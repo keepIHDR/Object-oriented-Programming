@@ -12,7 +12,7 @@ private:
 public:
 	void Init(double _a, double _b);	// 初始化类对象
 	Rectangle();						// 无参构造函数
-	Rectangle(double _a,double _b);		// 有参构造函数
+	Rectangle(double _a, double _b = 6);// 有参构造函数
 	Rectangle(Rectangle &temp);			// 拷贝构造函数
 	~Rectangle();		// 释放对象
 	double get_a();		// 输出矩形的边长a

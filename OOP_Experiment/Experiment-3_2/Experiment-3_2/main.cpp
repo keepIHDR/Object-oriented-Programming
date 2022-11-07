@@ -4,6 +4,11 @@
 
 using namespace std;
 
+/*
+	类的变量记心间, 三构一析放在前
+	普通函数按需添, 万法归宗永不变
+*/
+
 void func(Rectangle v, Rectangle* p, Rectangle& r) {
 	v.set(10, 20);
 	cout << "修改后的矩形v的边长为: a = " << v.get_a()
@@ -20,21 +25,24 @@ int main() {
 
 	/***** 任务一: 基础类编程设计实验 *****/
 	cout << "--------------------------------------" << endl;
-	cout << "--------------------------------------" << endl;
 	cout << "      任务一: 基础类编程设计实验      " << endl;
+	cout << "--------------------------------------" << endl;
 	Student stu;
 	stu.set();
+	stu.PringInformation();
 	stu.set_P(99);
 	stu.set_M(99);
 	stu.set_L(100);
 	stu.PringInformation();
-
+	cout << "任务一执行完毕!" << endl;
+	system("pause");
+	system("cls");
 
 
 	/***** 任务二: 类内构造函数设计实验 ******/
 	cout << "--------------------------------------" << endl;
-	cout << "--------------------------------------" << endl;
 	cout << "     任务二: 类内构造函数设计实验    " << endl;
+	cout << "--------------------------------------" << endl;
 	Rectangle rec1(5, 5), rec2(rec1), rec3;
 	// 初始化类对象
 	rec3.Init(10, 12);
@@ -81,6 +89,9 @@ int main() {
 	cout << ">> 矩形rec3的边长为: a = " << rec3.get_a()
 		<< ", b = " << rec3.get_b() << endl;
 
+	cout << "任务二执行完毕!" << endl;
 	system("pause");
+	system("cls");
+	cout << "析构函数执行: " << endl;
 	return 0;
 }
