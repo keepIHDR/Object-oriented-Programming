@@ -57,7 +57,7 @@ Graduate::Graduate(string _name, bool _gender, int _id, double _score, string _r
 	SumScore += this->score;
 }
 
-Graduate::Graduate(const Graduate& c) {
+Graduate::Graduate(const Graduate& c):university(c.university) {
 	cout << "Graduate的拷贝构造函数被调用!" << endl;
 	this->name = c.name;
 	this->gender = c.gender;

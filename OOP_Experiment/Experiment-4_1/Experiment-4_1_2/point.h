@@ -1,15 +1,15 @@
 #pragma once
 class Point {
 private:
-	double x, y;
+	double x, y;	// 坐标 x, y
 public:
-	Point();	// Point的构造函数
-	Point(int _x, int _y);	// Point的有参构造函数
-	~Point();	// Point的析构函数
-	void Init(int _x, int _y);	// 坐标初始化函数
-	void Modify(int _x, int _y);// 坐标修改函数
-	void Print();	// 坐标位置输出函数
-	friend double distance(Point& A, Point& B);
+	Point();									// Point的构造函数
+	Point(int _x, int _y);						// Point的有参构造函数
+	~Point();									// Point的析构函数
+	void Init(int _x, int _y);					// 坐标初始化函数
+	void Modify(int _x, int _y);				// 坐标修改函数
+	void Print();								// 坐标位置输出函数
+	friend double distance(Point& A, Point& B);	// 计算两点间距离
 };
 
 Point::Point() {
